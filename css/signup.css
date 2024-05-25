@@ -1,0 +1,78 @@
+body {
+    font-family: system-ui;
+}
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    width: 350px;
+    box-shadow: 0px 0px 3px #aaa;
+    text-align: center;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+
+}
+
+.div1 label {
+    font-family: system-ui;
+    font-weight: bold;
+}
+
+.div1 input {
+    padding: 10px;
+    width: 300px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    font-size: 15px;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+
+}
+
+.div2 label {
+    font-family: system-ui;
+    font-weight: bold;
+}
+
+.div2 input {
+    border: 1px solid #aaa;
+    padding: 10px;
+    width: 300px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.login {
+    padding: 15px;
+    width: 300px;
+    font-weight: bold;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background: dodgerblue;
+}
+
+.submit {
+    display: flex;
+    align-items: start;
+}
+
+.link a {
+    text-decoration: none;
+    color: dodgerblue;
+}
